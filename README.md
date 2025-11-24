@@ -29,12 +29,19 @@ The architecture consists of:
 ##  Project Structure  
 VocalTranscribe/
 ├── QuickAgent.py               # Main agent/controller script
+
 ├── README.md                   # Project documentation
+
 ├── llm.py                      # LLM integration & utilities
+
 ├── output.wav                  # Sample output audio
+
 ├── requirements.txt            # Python library dependencies
+
 ├── speech_to_text_streaming.py # Streaming STT implementation
+
 ├── system_prompt.txt           # System instructions for the LLM
+
 ├── text_to_speech.py           # TTS module
 
 
