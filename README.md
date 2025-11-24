@@ -28,6 +28,7 @@ The architecture consists of:
 
 ##  Project Structure  
 VocalTranscribe/
+
 ├── QuickAgent.py               # Main agent/controller script
 
 ├── README.md                   # Project documentation
