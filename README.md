@@ -88,6 +88,35 @@ print(result)
 
 4. Text-to-Speech Conversion
 
+```bash
+python text_to_speech.py --text "Hello, this is VocalTranscribe speaking!"
+```
+Example:
+
+```bash
+python text_to_speech.py --text "Speech processing completed successfully."
+```
+
+5. Use LLM Directly in Python
+
+```python
+from llm import LLMAgent
+
+agent = LLMAgent(system_prompt="system_prompt.txt")
+response = agent.chat("Summarize the transcription.")
+print(response)
+
+```
+---
+
+## Technologies Used
+
+1. Python
+2. Speech Recognition (Wave2Vec)
+3. LLMs (DeepGram, LangChain, Groq)
+4. ffmpeg
+
+
 
 
 
